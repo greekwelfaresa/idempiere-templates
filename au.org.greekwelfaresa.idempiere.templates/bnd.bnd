@@ -1,0 +1,46 @@
+-includeresource: resources
+-resourceonly: true
+
+category: bbb/iDempiere Standard Templates
+
+project-template-plugin:\
+	org.bndtools.template; org.bndtools.template=project;\
+		name=iDempiere 6.2 Plugin;\
+		category=${category};\
+		ranking:Double=1001;\
+		dir=templates/plugin;\
+		icon="${idempiere-icon}";\
+		help=plugin-help.xml
+
+project-template-plugin-test:\
+	org.bndtools.template; org.bndtools.template=project;\
+		name=iDempiere 6.2 Integration Testing;\
+		category=${category};\
+		ranking:Double=999;\
+		dir=templates/plugin-test;\
+		help=plugin-test-help.xml;\
+		icon="${idempiere-test-icon}";\
+		metaType=OSGI-INF/metatype/au.org.greekwelfaresa.idempiere.templates.plugin-test.xml
+
+postgresql-workspace-template:\
+	org.bndtools.template; org.bndtools.template=workspace;\
+		name=iDempiere PostgreSQL Workspace;\
+		category=${category};\
+		ranking:Double=0;\
+		dir=templates/postgresql-workspace;\
+		icon="${idempiere-icon}";\
+		help=postgresql-workspace-help.xml;\
+		metaType=OSGI-INF/metatype/au.org.greekwelfaresa.idempiere.templates.postgresql-workspace.xml
+
+Provide-Capability: \
+	${project-template-plugin},\
+	${project-template-plugin-test},\
+	${postgresql-workspace-template}
+
+pngurl: data:image/png;base64
+
+idempiere-icon: ${pngurl},${base64;icons/idempiere.png}
+idempiere-test-icon: ${pngurl},${base64;icons/idempiere-junit.png}
+-buildpath: org.osgi.service.metatype.annotations;version='1.4.0'
+-metatypeannotations:	*
+-includepackage: au.org.greekwelfaresa.idempiere.templates

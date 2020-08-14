@@ -1,0 +1,17 @@
+# Set javac settings from JDT prefs
+-include: \${workspace}/cnf/includes/jdt.bnd, \${workspace}/cnf/includes/idempiere.bnd
+
+-buildpath: \
+	org.adempiere.base,\
+	org.osgi.service.component.annotations,\
+	osgi.annotation
+
+-testpath: \
+	\${junit}
+
+Import-Package: \${compiere.importpackage}, \${adempiere.importpackage}, \${idempiere.importpackage}, *
+
+Private-Package: \
+	$basePackageName$.factory
+Export-Package: \
+	$basePackageName$.model
