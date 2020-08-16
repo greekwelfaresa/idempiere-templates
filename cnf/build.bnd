@@ -1,0 +1,22 @@
+# Configure Repositories
+javac.source: 1.8
+javac.target: 1.8
+javac.compliance: 1.8
+
+
+# This build requires newer Bnd features
+-require-bnd: "(version>=5.1.0)"
+
+base.version:           1.0.0
+
+# Uncomment the following line to build the non-snapshot version.
+#-snapshot:
+Bundle-Version:         ${base.version}.${tstamp}-SNAPSHOT
+# Don't baseline Bundle-Version
+-diffignore:            Bundle-Version
+
+# Maven info. The maven artifactId defaults to Bundle-SymbolicName
+-groupid:               au.org.greekwelfaresa.idempiere
+-pom:                   version=${versionmask;===s;${@version}}
+-maven-release:         pom;path=JAR,javadoc;-classpath="${project.buildpath}"
+

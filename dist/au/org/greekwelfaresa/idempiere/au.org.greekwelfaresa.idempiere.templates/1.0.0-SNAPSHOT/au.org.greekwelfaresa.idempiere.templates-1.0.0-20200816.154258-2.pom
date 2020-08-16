@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>au.org.greekwelfaresa.idempiere</groupId>
+  <artifactId>au.org.greekwelfaresa.idempiere.templates</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <description>au.org.greekwelfaresa.idempiere.templates</description>
+  <name>au.org.greekwelfaresa.idempiere.templates</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>org.osgi.service.metatype.annotations</artifactId>
+      <version>1.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.osgi</groupId>
+      <artifactId>osgi.annotation</artifactId>
+      <version>7.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

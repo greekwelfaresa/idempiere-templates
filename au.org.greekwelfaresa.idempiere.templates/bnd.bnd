@@ -41,6 +41,7 @@ pngurl: data:image/png;base64
 
 idempiere-icon: ${pngurl},${base64;icons/idempiere.png}
 idempiere-test-icon: ${pngurl},${base64;icons/idempiere-junit.png}
--buildpath: org.osgi.service.metatype.annotations;version='1.4.0'
+-buildpath: org.osgi.service.metatype.annotations,\
+	osgi.annotation
 -metatypeannotations:	*
 -includepackage: au.org.greekwelfaresa.idempiere.templates
