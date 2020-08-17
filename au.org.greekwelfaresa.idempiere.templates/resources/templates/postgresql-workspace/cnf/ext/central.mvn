@@ -7,10 +7,6 @@ org.osgi:org.osgi.test.assertj.promise:\${osgi-test.version}
 org.osgi:org.osgi.test.common:\${osgi-test.version}
 org.osgi:org.osgi.test.junit5:\${osgi-test.version}
 
-org.idempiere:org.idempiere.test.assertj:\${idempiere-test.version}
-org.idempiere:org.idempiere.test.common:\${idempiere-test.version}
-org.idempiere:org.idempiere.test.junit5:\${idempiere-test.version}
-
 # List repository contents using GAV coordinates
 org.assertj:assertj-core:3.16.1
 
