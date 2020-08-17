@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="Release" increment="1597638702664">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="au.org.greekwelfaresa.idempiere.templates"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.0.202008170431-SNAPSHOT" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.0.202008170431-SNAPSHOT" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="au.org.greekwelfaresa.idempiere.templates"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.0.202008170431-SNAPSHOT" type="Version"/>
+      <attribute name="osgi.wiring.host" value="au.org.greekwelfaresa.idempiere.templates"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="help" value="plugin-help.xml"/>
+      <attribute name="name" value="iDempiere 6.2 Plugin"/>
+      <attribute name="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4iAAAuIgGq4t2SAAAAB3RJTUUH5AgFAjIjCjy5qgAAAwZJREFUOMt1km1olWUYx3/38zLP3pweT32JChLzQ4ImRElBDMdIcn4oi4Ik8CXKtrM9xykEK3FNzMmaW8pJt5Zogk5dUrT5Mh2Z2rQSydnwqJwNSjln5/3s2dk8z/PcfVg7rFz/T/d1cd0/Lv7XXzCDqrzVj0nEM/GM2Xe4rS279sNKinWdlt3ND80q0wvDMPB6q/miteUv1bIveAqLGmt8tW907N3D3LluFWBrfQMzKv/99n/VGzfVCgBj0+Zthq+2h//VgSCctR9qr1lXmXvXfby1fsfOxmGAXbualJlBR0NN2qe9suCdpm6AohfWU13j4/OWFgXgy/1t/V8fOHgJoPN4l5j6JgC0z35a5BQV39BCf2b1weu6em9oTepy+zfT+Uc6j88vyM+/A6xeVfHqid5zfZQtL500UR2+beYN/Io2dEtXR+6hppLh/y741pur73o8nrvueW4/QNny0skrKP6bTPjXBvXg4Ot68PaPaiRUEx84dqZwxZZHZ5fXbih57t0K98Jy1z+cm47jPNJz+uySKbCWf/oooqJOpL9v6AK6AFxVB/fKRGSjk4x96/rlh7f158ssgEg08qRt21hZez5wHUAzT9YDyCmi3tD7mzOaXCrt7NDYId9rFC8TkStHZPfJ7/RQNLrYsR0s23LlgqQ0X4KOOyqAaA/02HM8S2VhCbJkXj3AhspyAH4PBJpGwiNEo1ES8UTOI80xXgSwxb4/qmTR7FekoiDG0mi2dQugecc2WW34VoyEw1WKojiAMjGeuToFUAG07edcQFCq2qCSMVcpZgoeZDu7l6Qi7mUrfUjZYVkWUjrCsuyG1tbdPR/VGVy80I9QGy9ib3lpcp3t5xcIRwaEmSSbSvd9UnDtxhiaVyJspBwPJSb8h77as/m9D7zKfn+rkwsSAFKCEOQZh68pGfNZxUzzIJ782ZO8f2pWJvlEOJaZlYmN7iTRNzA9H2rOfXMRzuVj2P1d+/KefvlxNR1fmJeKPWWlR0szo2NxTcp1E/fPDM9ZsFKMxwI5wN+HrVLahPHfDwAAAABJRU5ErkJggg=="/>
+      <attribute name="ranking" value="1001.0" type="Double"/>
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="category" value="bbb/iDempiere Standard Templates"/>
+      <attribute name="dir" value="templates/plugin"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="help" value="plugin-test-help.xml"/>
+      <attribute name="name" value="iDempiere 6.2 Integration Testing"/>
+      <attribute name="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4iAAAuIgGq4t2SAAAAB3RJTUUH5AgFAjsqoiK6RwAAApdJREFUOMulkl9IU3EUx7+/e+9sbjNhjihG60F7EPpDRYJkhEWolIYyy4G9SL5ICv4pJI3KlCybMCr6o5RZD/kvy0JrWmIuLSkQ5t82aZppOt1y253L7e725LgO6aXz9OOcz+9zzoEDrBM5hUUEAPILz13JLyjqwP9E6cVLZdeu35gEgKoqLbU+1TCnZa528ZJMbbswXa3TUQBw70HNp0d19R8BoLH5OREyhKns3eGXhRmZuWmvaHRQRM9YTjv6ap8KoWeNzZGS0FAzAHVK8rEWYY2iJ01syNAXMJZxEW2dAe1Ymg8eMOOkekKhUEzII+R3g2sEAMISCtMols2j7NZW+3CLTpp0fhPN+U8Qu/UX7ZjttI3rPX39n1/6OF8Ky7r3JCUcHQwIZMmlxPWqnF9NiHPr79xK25DTbh5Y02m7XIlYJgo+L6dOV6cG1qCEn0XlXV/9UmnO2SaXpTVbSwBgcM6MrN2JiHYpYFu0wWZfFAvFDB6aaWRFcaT2Wwfnce+leQCELgve1TpvBQDwPD+/VpAVxZH7I7m8bGMiT1EgbicYzjceLEj9PrP61GsMBngNA/BP/QTFVLwTE7ezGW7XGWqZBVn5A7+Pk73JOx4uFNwO8YMbM4NSKaGKiyORxQWEZ5fB+EqOeADMMhXvPxA/D8I64HU4i/slkUahwOb03gRQFDxZ4DR9JYdNGapuVMY7EOpciK8YC98vBJ+0DD9e74gDgpruBt7ww4imkR7QSzZW4lyINdmnAQCZGl0EfncP/VOQHX+KSEPE2CyTo60sSXr5QgzYFQ/Sow9haeK1DQCorUp49T0AAMuLNp7apgQJNla/reN7p4zYIpPjoGonNAdSAsykvpP36nvAjZpA79sFUVwM/gIO+g+fwGvUgwAAAABJRU5ErkJggg=="/>
+      <attribute name="metaType" value="OSGI-INF/metatype/au.org.greekwelfaresa.idempiere.templates.plugin-test.xml"/>
+      <attribute name="ranking" value="999.0" type="Double"/>
+      <attribute name="org.bndtools.template" value="project"/>
+      <attribute name="category" value="bbb/iDempiere Standard Templates"/>
+      <attribute name="dir" value="templates/plugin-test"/>
+    </capability>
+    <capability namespace="org.bndtools.template">
+      <attribute name="help" value="postgresql-workspace-help.xml"/>
+      <attribute name="name" value="iDempiere PostgreSQL Workspace"/>
+      <attribute name="icon" value="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4iAAAuIgGq4t2SAAAAB3RJTUUH5AgFAjIjCjy5qgAAAwZJREFUOMt1km1olWUYx3/38zLP3pweT32JChLzQ4ImRElBDMdIcn4oi4Ik8CXKtrM9xykEK3FNzMmaW8pJt5Zogk5dUrT5Mh2Z2rQSydnwqJwNSjln5/3s2dk8z/PcfVg7rFz/T/d1cd0/Lv7XXzCDqrzVj0nEM/GM2Xe4rS279sNKinWdlt3ND80q0wvDMPB6q/miteUv1bIveAqLGmt8tW907N3D3LluFWBrfQMzKv/99n/VGzfVCgBj0+Zthq+2h//VgSCctR9qr1lXmXvXfby1fsfOxmGAXbualJlBR0NN2qe9suCdpm6AohfWU13j4/OWFgXgy/1t/V8fOHgJoPN4l5j6JgC0z35a5BQV39BCf2b1weu6em9oTepy+zfT+Uc6j88vyM+/A6xeVfHqid5zfZQtL500UR2+beYN/Io2dEtXR+6hppLh/y741pur73o8nrvueW4/QNny0skrKP6bTPjXBvXg4Ot68PaPaiRUEx84dqZwxZZHZ5fXbih57t0K98Jy1z+cm47jPNJz+uySKbCWf/oooqJOpL9v6AK6AFxVB/fKRGSjk4x96/rlh7f158ssgEg08qRt21hZez5wHUAzT9YDyCmi3tD7mzOaXCrt7NDYId9rFC8TkStHZPfJ7/RQNLrYsR0s23LlgqQ0X4KOOyqAaA/02HM8S2VhCbJkXj3AhspyAH4PBJpGwiNEo1ES8UTOI80xXgSwxb4/qmTR7FekoiDG0mi2dQugecc2WW34VoyEw1WKojiAMjGeuToFUAG07edcQFCq2qCSMVcpZgoeZDu7l6Qi7mUrfUjZYVkWUjrCsuyG1tbdPR/VGVy80I9QGy9ib3lpcp3t5xcIRwaEmSSbSvd9UnDtxhiaVyJspBwPJSb8h77as/m9D7zKfn+rkwsSAFKCEOQZh68pGfNZxUzzIJ782ZO8f2pWJvlEOJaZlYmN7iTRNzA9H2rOfXMRzuVj2P1d+/KefvlxNR1fmJeKPWWlR0szo2NxTcp1E/fPDM9ZsFKMxwI5wN+HrVLahPHfDwAAAABJRU5ErkJggg=="/>
+      <attribute name="metaType" value="OSGI-INF/metatype/au.org.greekwelfaresa.idempiere.templates.postgresql-workspace.xml"/>
+      <attribute name="ranking" value="0.0" type="Double"/>
+      <attribute name="org.bndtools.template" value="workspace"/>
+      <attribute name="category" value="bbb/iDempiere Standard Templates"/>
+      <attribute name="dir" value="templates/postgresql-workspace"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="83556" type="Long"/>
+      <attribute name="url" value="au.org.greekwelfaresa.idempiere.templates/au.org.greekwelfaresa.idempiere.templates-1.0.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="0B89D4CFC3671B8FF45FEF034390DC09B39DA6727560859431802C931C560BE7"/>
+    </capability>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

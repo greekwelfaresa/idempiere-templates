@@ -1,5 +1,6 @@
 <form>
-	<p>Creates a Bnd workspace with repositories configured for developing a plugin for iDempiere 6.2. Configured for:</p>
+	<p>Creates a basic Bnd workspace with repositories configured for developing a plugin for iDempiere 6.2. Configured for:</p>
+	<li>Latest version of bnd (5.2.0-SNAPSHOT)</li>
 	<li>iDempiere 6.2 P2 repository</li>
 	<li>Connection to a PostgreSQL database</li>
 	<li>JUnit 5.6.2</li>
@@ -7,4 +8,5 @@
 	<li>AssertJ 3.16.1</li>
 	<li>OSGi test 0.10.0-SNAPSHOT</li>
 	<li>iDempiere Test 1.0.0-SNAPSHOT</li>
+	<li>Gradle 6.5 wrapper for Continuous Integration</li>
 </form>

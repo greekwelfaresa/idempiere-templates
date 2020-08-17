@@ -4,19 +4,15 @@ mavencentral:           https://repo.maven.apache.org/maven2
 -plugin.0.Main:\
     aQute.bnd.repository.maven.provider.MavenBndRepository;\
         name="Maven Central";\
-        releaseUrl="\${mavencentral}";\
-        index="\${.}/central.mvn";\
+        releaseUrl="${mavencentral}";\
+        index="${.}/central.mvn";\
         readOnly=true,\
-    aQute.bnd.repository.maven.provider.MavenBndRepository;\
-        name="Local";\
-        noupdateOnRelease=true,\
-    aQute.bnd.repository.maven.provider.MavenBndRepository;\
-        name="Release";\
-        releaseUrl="\${fileuri;\${releaserepo}}";\
-        snapshotUrl="\${fileuri;\${releaserepo}}";\
-        noupdateOnRelease=true
+	aQute.bnd.deployer.repository.LocalIndexedRepo; \
+		name = Release; \
+		pretty = true; \
+		local = ${releaserepo}
         
--buildrepo: Local
+-buildrepo: Release
 -releaserepo: Release
 
 -baselinerepo: Baseline
