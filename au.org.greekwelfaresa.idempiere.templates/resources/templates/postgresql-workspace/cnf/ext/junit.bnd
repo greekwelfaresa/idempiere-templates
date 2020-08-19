@@ -20,8 +20,8 @@ mockito: org.mockito.mockito-core;version="[3,4)",\
     org.objenesis;version="[2,3)"
         
 idempiere-test: \
-	org.idempiere.test.common,\
-	org.idempiere.test.assertj,\
-	org.idempiere.test.junit5
+	au.org.greekwelfaresa.idempiere.test.common,\
+	au.org.greekwelfaresa.idempiere.test.assertj,\
+	au.org.greekwelfaresa.idempiere.test.junit5
     
 -runsystempackages.objenesis: sun.misc,sun.reflect
