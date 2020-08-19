@@ -9,7 +9,7 @@ mavencentral:           https://repo.maven.apache.org/maven2
         readOnly=true,\
 	aQute.bnd.repository.osgi.OSGiRepository;\
         name="iDempiere Test";\
-        locations="https://raw.githubusercontent.com/kriegfrj/idempiere-test/master/dist/bundles/index.xml";\
+        locations="https://raw.githubusercontent.com/greekwelfaresa/idempiere-test/master/dist/bundles/index.xml";\
         poll.time=86000;\
         cache="\${workspace}/cnf/cache/stable/idempiere-test",\
     aQute.bnd.repository.maven.provider.MavenBndRepository;\

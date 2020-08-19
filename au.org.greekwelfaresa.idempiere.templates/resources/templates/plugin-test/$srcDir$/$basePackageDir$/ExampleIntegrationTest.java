@@ -4,10 +4,10 @@ import java.time.Instant;
 
 import org.assertj.core.api.junit.jupiter.SoftAssertionsExtension;
 import org.compiere.model.MBPartner;
-import org.idempiere.test.assertj.IDSoftAssertions;
-import org.idempiere.test.common.annotation.InjectIDempiereEnv;
-import org.idempiere.test.common.env.IDempiereEnv;
-import org.idempiere.test.junit5.IDempiereEnvExtension;
+import au.org.greekwelfaresa.idempiere.test.assertj.IDSoftAssertions;
+import au.org.greekwelfaresa.idempiere.test.common.annotation.InjectIDempiereEnv;
+import au.org.greekwelfaresa.idempiere.test.common.env.IDempiereEnv;
+import au.org.greekwelfaresa.idempiere.test.junit5.IDempiereEnvExtension;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

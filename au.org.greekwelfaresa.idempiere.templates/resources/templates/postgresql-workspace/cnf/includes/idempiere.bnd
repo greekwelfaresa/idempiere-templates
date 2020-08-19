@@ -8,6 +8,5 @@ adempiere.importpackage: \
  org.adempiere.*;bundle-symbolic-name="\${@bundlesymbolicname}";bundle-version="\${range;[==,+);\${@bundleversion}}";version=!
  
 idempiere.importpackage: \
- org.idempiere.test.*,\
  org.idempiere.*;bundle-symbolic-name="\${@bundlesymbolicname}";bundle-version="\${range;[==,+);\${@bundleversion}}";version=!,\
  
