@@ -10,6 +10,9 @@ public @interface WorkspaceTemplateMeta {
 
 	public static final String NAME = "iDempiere PostgreSQL Workspace Template";
 
+	@AttributeDefinition(name = "iDempiere Target Repository", description = "URL of the repo for the version of iDempiere for which this workspace is targeted")
+	String repoURL() default "https://raw.githubusercontent.com/idempiere/binary.file/tree/master/p2.idempiere.core/idempiere-6.2-201905030208";
+
 	@AttributeDefinition(name = "DB Host", description = "Host on which PostgreSQL is running")
 	String dbHost() default "localhost";
 

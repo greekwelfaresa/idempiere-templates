@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="Release" increment="1597848561742">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="Release" increment="1597998483531">
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="osgi.identity" value="au.org.greekwelfaresa.idempiere.templates"/>
       <attribute name="type" value="osgi.bundle"/>
-      <attribute name="version" value="1.0.0.202008191449-SNAPSHOT" type="Version"/>
+      <attribute name="version" value="1.0.0.202008210827-SNAPSHOT" type="Version"/>
     </capability>
     <capability namespace="osgi.wiring.bundle">
-      <attribute name="bundle-version" value="1.0.0.202008191449-SNAPSHOT" type="Version"/>
+      <attribute name="bundle-version" value="1.0.0.202008210827-SNAPSHOT" type="Version"/>
       <attribute name="osgi.wiring.bundle" value="au.org.greekwelfaresa.idempiere.templates"/>
     </capability>
     <capability namespace="osgi.wiring.host">
-      <attribute name="bundle-version" value="1.0.0.202008191449-SNAPSHOT" type="Version"/>
+      <attribute name="bundle-version" value="1.0.0.202008210827-SNAPSHOT" type="Version"/>
       <attribute name="osgi.wiring.host" value="au.org.greekwelfaresa.idempiere.templates"/>
     </capability>
     <capability namespace="org.bndtools.template">
@@ -44,10 +44,10 @@
       <attribute name="dir" value="templates/postgresql-workspace"/>
     </capability>
     <capability namespace="osgi.content">
-      <attribute name="size" value="83538" type="Long"/>
+      <attribute name="size" value="83823" type="Long"/>
       <attribute name="url" value="au.org.greekwelfaresa.idempiere.templates/au.org.greekwelfaresa.idempiere.templates-1.0.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
-      <attribute name="osgi.content" value="405AEEFA9C4F1CF29C8910F769249E724AA8B9EF47DEBCB50194565D02D1664E"/>
+      <attribute name="osgi.content" value="BEBA4871092AC0C659800574E2F187725645F7D5D731DE8494D545CC4CD85910"/>
     </capability>
     <requirement namespace="osgi.ee">
       <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>

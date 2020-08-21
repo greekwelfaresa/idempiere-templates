@@ -1,7 +1,7 @@
 <form>
-	<p>Creates a basic Bnd workspace with repositories configured for developing a plugin for iDempiere 6.2. Configured for:</p>
+	<p>Creates a basic Bnd workspace with repositories configured for developing a plugin for iDempiere. Configured for:</p>
 	<li>Latest version of bnd (5.2.0-SNAPSHOT)</li>
-	<li>iDempiere 6.2 P2 repository</li>
+	<li>iDempiere P2 repository</li>
 	<li>Connection to a PostgreSQL database</li>
 	<li>JUnit 5.6.2</li>
 	<li>Mockito 3.3.0</li>

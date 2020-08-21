@@ -18,13 +18,9 @@ mavencentral:           https://repo.maven.apache.org/maven2
         index="\${.}/osgi-snapshots.mvn";\
         readOnly=true,\
     aQute.bnd.repository.p2.provider.P2Repository; \
-        url = "https://raw.githubusercontent.com/idempiere/binary.file/master/p2.idempiere.core/idempiere-6.2-201905030208"; \
-        name = "iDempiere 6.2";\
+        url = "$repoURL$"; \
+        name = "iDempiere ($repoURL$)";\
         location="\${workspace}/cnf/cache/stable/idempiere/",\
-    aQute.bnd.repository.p2.provider.P2Repository; \
-        url = "https://raw.githubusercontent.com/idempiere/binary.file/master/p2.maven/maven-p2-R20190411"; \
-        name = "iDempiere 6.2 Maven-P2";\
-        location="\${workspace}/cnf/cache/stable/idempiere-maven/",\
     aQute.bnd.repository.maven.provider.MavenBndRepository;\
         name="Local";\
         noupdateOnRelease=true,\
